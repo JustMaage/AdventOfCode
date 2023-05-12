@@ -2,8 +2,6 @@ package de.justmage.aoc.year2022;
 
 import de.justmage.aoc.AdventDay;
 
-import java.util.HashMap;
-
 public class Day7 extends AdventDay {
 
     public Day7() {
@@ -24,35 +22,5 @@ public class Day7 extends AdventDay {
     @Override
     public Object solution2() {
         return null;
-    }
-}
-
-class Tree {
-    private Node startingNode;
-
-    public Tree(Node startingNode) {
-        this.startingNode = startingNode;
-    }
-}
-
-class Node {
-
-    private HashMap<String, Double> directories = new HashMap<>();
-    private HashMap<String, Double> files = new HashMap<>();
-
-    public HashMap<String, Double> getDirectories() {
-        return directories;
-    }
-
-    public void setDirectories(HashMap<String, Double> directories) {
-        this.directories = directories;
-    }
-
-    public HashMap<String, Double> getFiles() {
-        return files;
-    }
-
-    public void setFiles(HashMap<String, Double> files) {
-        this.files = files;
     }
 }
